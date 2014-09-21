@@ -40,7 +40,7 @@ cacheSolve <- function(x, ...) {
 	
 	## if the value of i is not NULL return the cached inverse of the matrix
 	if(!is.null(i)) {
-		message("retrieving cached inverse..."
+		message("retrieving cached inverse...")
 		return(i)
 	}
 	## if the value of i is NULL then calculate the inverse and cache it
